@@ -3,7 +3,7 @@ module github.com/daniepett/terraform-provider-qlik
 go 1.19
 
 require (
-	github.com/daniepett/qlik-cloud-client-go v0.0.3
+	github.com/daniepett/qlik-cloud-client-go v0.1.3
 	github.com/hashicorp/terraform-plugin-docs v0.16.0
 	github.com/hashicorp/terraform-plugin-framework v1.4.1
 	github.com/hashicorp/terraform-plugin-go v0.19.0
@@ -62,5 +62,3 @@ require (
 	google.golang.org/grpc v1.57.0 // indirect
 	google.golang.org/protobuf v1.31.0 // indirect
 )
-
-replace github.com/daniepett/qlik-cloud-client-go v0.0.3 => ../qlik-cloud-client-go

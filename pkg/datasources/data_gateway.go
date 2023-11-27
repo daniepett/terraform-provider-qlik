@@ -99,7 +99,7 @@ func (d *DataGatewayDataSource) Read(ctx context.Context, req datasource.ReadReq
 	}
 
 	state.ID = types.StringValue(dg.ID)
-	state.Name = types.StringValue(dg.Name)
+	// state.Name = types.StringValue(dg.Name)
 	state.Type = types.StringValue(dg.Type)
 	state.Description = types.StringValue(dg.Description)
 	state.SpaceID = types.StringValue(dg.SpaceID)
